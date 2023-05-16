@@ -82,3 +82,41 @@ body {
   justify-content: end;
   align-items: center;
 }
+
+.section.two {
+  padding: 50px 100px;
+}
+
+.section.two .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.section.two .cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  color: #1F2937;
+  font-size: 18px;
+}
+
+.illustration {
+  width: 175px;
+  height: 175px;
+  border: 2px solid #3882F6;
+  border-radius: 8px;
+}
