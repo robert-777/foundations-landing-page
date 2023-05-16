@@ -7,7 +7,7 @@ body {
 
 .header {
   background-color: #1F2937;
-  padding: 0 100px;
+  padding: 0 125px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
@@ -38,10 +38,10 @@ body {
 .section.one {
   background-color: #1F2937;
   display: flex;
-  padding: 0 100px;
+  padding: 0 125px;
   padding-bottom: 50px;
   gap: 0px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -149,20 +149,21 @@ body {
 }
 
 .section.four {
-  padding: 100px 0;
+  padding: 100px 125px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+
 }
 
 .section.four .container {
-  width: 900px;
-  height: 150px;
   background-color: #3882F6;
   border-radius: 8px;
+  padding: 50px 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-grow: 1;
 }
 
 .signup-primary {
