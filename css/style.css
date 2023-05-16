@@ -120,3 +120,30 @@ body {
   border: 2px solid #3882F6;
   border-radius: 8px;
 }
+
+.section.three {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.section.three div {
+  width: 700px;
+}
+
+.section.three .quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.section.three .author {
+  text-align: end;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+}
